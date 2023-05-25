@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://media.istockphoto.com/id/927635726/hu/fot%C3%B3/t%C5%B1zij%C3%A1t%C3%A9kok-gy%C3%BAjt%C3%A1sa.jpg?s=612x612&w=0&k=20&c=hIGAxIE2BtqAZ3vnxvrUN3v_gD6LJ9hqPCVMquEz0Yw=);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    }
+    
+    .topnav a {
+    float: left;
+    display: block;
+    color: lightslategrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    .topnav a.active {
+    background-color: rgb(119, 120, 153);
+    color: white;
+    }
+    
+    .topnav .icon {
+    display: none;
+    }
+    
+    @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    }
+    
+    @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    }
+  
